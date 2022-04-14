@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz After UTS</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="questions">
+      <h2>PTI Quiz</h2>
+      <p id="question"></p>
+      <ul>
+        <li id="option-1" class="blue-bg"></li>
+        <li id="option-2" class="blue-bg"></li>
+        <li id="option-3" class="blue-bg"></li>
+        <li id="option-4" class="blue-bg"></li>
+      </ul>
+    </div>
+    <div class="timer"></div>
+    <div id="gameOver" class="hidden">
+      <h3>Quiz Over</h3>
+      <p>Your score: <span id="final-score">0</span></p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
